@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Simple</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Iniciar sesión</h2>
+    <input type="text" id="usuario" placeholder="Usuario">
+    <input type="password" id="contrasena" placeholder="Contraseña">
+    
+    <!-- Aquí está el checkbox para ver la contraseña -->
+    <label>
+      <input type="checkbox" id="verContrasena"> Ver contraseña
+    </label>
+
+    <button onclick="iniciarSesion()">Entrar</button>
+    <div class="error" id="errorMsg"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
